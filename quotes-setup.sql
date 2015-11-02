@@ -29,7 +29,7 @@ SET time_zone = "+00:00";
 CREATE TABLE IF NOT EXISTS `quotes` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `who` varchar(64) NOT NULL,
-  `mug` varchar(64) NOT NULL,
+  `mug` varchar(64),
   `what` text NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
